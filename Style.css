@@ -1,4 +1,33 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.Header, .Footer {
+        display: flex;
+        height: 80px;
+        background-color: #1f2937;
+}
+
+.Section-one {
+   display: flex;
+   background-color: #131a24;
+   height: 350px;
+}
+
+.Section-two {
+    display: flex;
+    height: 340px;
+}
+
+.Section-three {
+    display: flex;
+    height: 250px;
+    background-color: #cbced4;
+}
+
+.Section-four {
+    display: flex;
+    height: 200px;
 }
