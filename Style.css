@@ -2,12 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .Header, .Footer {
         display: flex;
         height: 80px;
         background-color: #1f2937;
+        color: white;
 }
 
 .Section-one {
@@ -30,4 +32,31 @@ body {
 .Section-four {
     display: flex;
     height: 200px;
+}
+
+.Logo {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-links {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+a.Links:link {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+a.Links:hover {
+   text-decoration: underline;
+   background-color: #131a24;
 }
