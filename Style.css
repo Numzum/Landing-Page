@@ -50,6 +50,12 @@ body {
     gap: 20px;
 }
 
+.Header-img {
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+}
+
 a.Links:link {
     text-decoration: none;
     color: white;
