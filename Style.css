@@ -15,23 +15,23 @@ body {
 .Section-one {
    display: flex;
    background-color: #131a24;
-   height: 350px;
+   height: 450px;
 }
 
 .Section-two {
     display: flex;
-    height: 340px;
+    height: 440px;
 }
 
 .Section-three {
     display: flex;
-    height: 250px;
+    height: 300px;
     background-color: #cbced4;
 }
 
 .Section-four {
     display: flex;
-    height: 200px;
+    height: 250px;
 }
 
 .Logo {
