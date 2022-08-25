@@ -66,3 +66,41 @@ a.Links:hover {
    text-decoration: underline;
    background-color: #131a24;
 }
+
+.Content-one {
+    display: flex;
+    padding: 50px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Text-one {
+margin-right: 120px;
+  max-width: 400px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.Image-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content-one-img {
+    height: 200px;
+    width: 400px;
+    
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    height: 25px;
+    width: 100px;
+    border: none;
+    border-radius: 8px
+}
